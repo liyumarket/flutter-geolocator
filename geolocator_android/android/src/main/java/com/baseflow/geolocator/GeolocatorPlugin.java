@@ -19,7 +19,8 @@ import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
 
 /** GeolocatorPlugin */
-public class GeolocatorPlugin implements FlutterPlugin, ActivityAware {
+public final class GeolocatorPlugin implements FlutterPlugin {
+
 
   private static final String TAG = "FlutterGeolocator";
   private final PermissionManager permissionManager;
