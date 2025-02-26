@@ -21,7 +21,7 @@ class AndroidPosition extends Position {
     required headingAccuracy,
     required speed,
     required speedAccuracy,
-    int? floor,
+    super.floor,
     isMocked = false,
   }) : super(
           longitude: longitude,
@@ -34,7 +34,7 @@ class AndroidPosition extends Position {
           headingAccuracy: headingAccuracy,
           speed: speed,
           speedAccuracy: speedAccuracy,
-          floor: floor,
+         
           isMocked: isMocked,
         );
 
